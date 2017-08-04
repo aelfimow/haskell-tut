@@ -1,0 +1,12 @@
+das'ist :: Int -> String
+das'ist 1 = "Das ist eine Eins"
+das'ist 2 = "Das ist eine Zwei"
+das'ist 3 = "Das ist eine Drei"
+das'ist 4 = "Das ist eine Vier"
+das'ist 5 = "Das ist eine Fuenf"
+das'ist 6 = "Das ist eine Sechs"
+das'ist 7 = "Das ist eine Sieben"
+das'ist 8 = "Das ist eine Acht"
+das'ist 9 = "Das ist eine Neun"
+das'ist 10 = "Das ist eine Zehn"
+das'ist x = "Das kenne ich nicht :("
