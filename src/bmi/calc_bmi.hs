@@ -8,4 +8,8 @@ calc_bmi mass length
     | bmi_value < 35   = "Adipositas Grad I"
     | bmi_value < 40   = "Adipositas Grad II"
     | otherwise  = "Adipositas Grad III"
-    where bmi_value = mass / length ^ 2
+    where bmi_value = mass / length^2
+
+calc_bmi' :: [(Double, Double)] -> [ String ]
+calc_bmi' ml = [ to_bmi_string mass length | (mass, length) <- ml ]
+    where to_bmi_string mass length = calc_bmi mass length
